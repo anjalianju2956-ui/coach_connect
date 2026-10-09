@@ -1,0 +1,62 @@
+:root {
+  /* ---- ink (text) ---- */
+  --ink-900: #0b1b33;
+  --ink-700: #243b53;
+  --ink-500: #486581;
+  --ink-400: #627d98;
+  --ink-300: #9fb3c8;
+  --ink-200: #bcccdc;
+  --ink-100: #d9e2ec;
+
+  /* ---- surfaces ---- */
+  --canvas: #eef2f6;
+  --surface: #ffffff;
+  --surface-2: #f5f7fa;
+  --surface-3: #e8eef4;
+
+  /* ---- brand (rail blue) ---- */
+  --brand-900: #0b2545;
+  --brand-800: #0e2e56;
+  --brand-700: #13315c;
+  --brand-600: #1d4e89;
+  --brand-500: #2a6fbb;
+  --brand-100: #e3edf9;
+
+  /* ---- signal amber (accent) ---- */
+  --accent: #f4a83a;
+  --accent-strong: #e08c1a;
+  --accent-ink: #7a4b00;
+  --accent-bg: #fff5e5;
+
+  /* ---- status ---- */
+  --ok: #12805c;
+  --ok-bg: #e6f6f0;
+  --warn: #b7791f;
+  --warn-bg: #fdf5e6;
+  --danger: #c53030;
+  --danger-bg: #fdecec;
+  --info: #2b6cb0;
+  --info-bg: #ebf4ff;
+
+  /* ---- shape / elevation ---- */
+  --r-s: 8px;
+  --r-m: 14px;
+  --r-l: 20px;
+  --r-pill: 999px;
+  --shadow-s: 0 1px 2px rgba(11, 37, 69, 0.08), 0 1px 3px rgba(11, 37, 69, 0.06);
+  --shadow-m: 0 4px 16px rgba(11, 37, 69, 0.1);
+  --shadow-l: 0 12px 32px rgba(11, 37, 69, 0.14);
+
+  /* ---- layout ---- */
+  --maxw: 680px;
+  --header-h: 60px;
+  --tab-h: 62px;
+  --gap: 14px;
+
+  /* ---- type ---- */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
